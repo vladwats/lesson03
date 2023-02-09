@@ -7,7 +7,7 @@ public class Task06 {
 		double b = 10.5; 
 		double c = 15;
 		double d = 13;
-		double F = a/c * b/d - (a*b-c)/c*d;
+		double F = a/c * b/d - (a*b-c)/(c*d);
 		System.out.println(F);
 
 	}
